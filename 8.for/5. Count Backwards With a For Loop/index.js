@@ -4,10 +4,12 @@ function arrayForLoops() {
   let myArray = [];
 
   // 아래에 코드를 작성해주세요
-  
+  for (let i=9;i>0;i-=2) {
+    myArray.push(i)
+  }
 
   // 아래의 코드를 수정하지 마세요.
   return myArray;
 }
-
+console.log(arrayForLoops())
 module.exports = { arrayForLoops };

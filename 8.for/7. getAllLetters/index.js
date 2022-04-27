@@ -4,10 +4,10 @@ function getAllLetters(str) {
   let strArray = [];
 
   // 아래에 코드를 작성해주세요
-  
+  strArray=Array.from(str)
   
   // 아래의 코드를 수정하지 마세요.
   return strArray;
 }
-
+console.log(getAllLetters("dog cat"))
 module.exports = { getAllLetters };
