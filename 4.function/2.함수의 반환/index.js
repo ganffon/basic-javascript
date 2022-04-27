@@ -14,3 +14,20 @@ console.log("my age: ", getMyAge()) // 함수가 반환하는 값을 콘솔창�
 아래에 과제 함수들을 작성해주세요.
 
 */
+
+function returnSeven() {
+  return 7
+}
+
+function getStringLength(){
+  return "I LOVE WECODE".length
+}
+
+function getMyName() {
+  let name = "김대한"
+  return name
+}
+returnSeven()
+getStringLength()
+getMyName()
+

@@ -6,7 +6,8 @@ function decrement(){
 
   // 다음에 코드를 작성해 주세요
 
-
+  num1++
+  num2--
   // 다음 코드는 수정하거나 지우지 마세요
   if(num1 === 12 && num2 === 43) {
     return "Pass";

@@ -4,7 +4,7 @@ function modifyArray() {
   let myArray = [18,64,99];
  
   // 아래에 코드를 작성해주세요
-  
+  myArray[0] = 72
  
   // 아래의 코드를 수정하지 마세요.
   return myArray;

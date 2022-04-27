@@ -5,10 +5,12 @@ function increment(){
   
   // 아래에 코드를 작성해주세요
   
-
+  myVar++
+  console.log(myVar)
   // 아래의 코드를 수정하지 마세요.
   return myVar;
-}
 
+}
+increment()
 // 아래의 코드를 수정하지 마세요.
 module.exports = { increment }

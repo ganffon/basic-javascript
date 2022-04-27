@@ -15,3 +15,16 @@ sayMyName()
 
 */
 
+function sayHello(){
+  console.log("김코드\n안녕하세요! 만나서 반갑습니다")
+}
+
+sayHello()
+
+
+
+function getStringLength(){
+  console.log("I LOVE WECODE".length)
+}
+
+getStringLength()

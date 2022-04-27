@@ -4,9 +4,14 @@ function arrayPop() {
   let myArray = [["John", 23], ["cat", 2]];
 
   // Only change code below this line.
+  myArray.pop()
 
   // 아래의 코드를 수정하지 마세요.
   return myArray;
 }
 
+console.log(arrayPop())
+
 module.exports = { arrayPop }
+
+

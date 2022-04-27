@@ -4,10 +4,10 @@ function arrayPush() {
   let myArray = [["John", 23], ["cat", 2]];
 
   // 아래에 코드를 작성해주세요
-
+  myArray.push(["dog",3])
   
   // 아래의 코드를 수정하지 마세요.
   return myArray;
 }
-
+console.log(arrayPush())
 module.exports = { arrayPush };

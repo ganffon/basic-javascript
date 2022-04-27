@@ -4,10 +4,11 @@ function accessArray() {
   let myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
 
   // 아래에 코드를 수정해주세요.
-
+  myData = myArray[2][1]
   
   // 아래의 코드를 수정하지 마세요.
   return myData;
 }
 
+console.log(accessArray())
 module.exports = { accessArray }

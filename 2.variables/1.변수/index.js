@@ -1,4 +1,4 @@
-let myAge = 30;
+let myAge = 36;
 console.log(myAge)
 
 // 아래와 같이 콤마(,) 를 사용하여 
