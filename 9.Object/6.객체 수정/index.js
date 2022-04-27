@@ -8,10 +8,13 @@ function updateObject() {
   };
 
   // 아래에 코드를 작성해주세요.
-  
+  myDog.name = "Happy Coder"
+
   
   // 아래의 코드는 수정하지 마세요.
   return myDog.name;
 }
+
+console.log(updateObject())
 
 module.exports = { updateObject };
